@@ -1,0 +1,21 @@
+{
+  "name": "humble-desktop-nvidia-gazebo",
+  "dockerFile": "Dockerfile",
+
+  "privileged": true,
+
+  "containerEnv": {
+    "DISPLAY": "${localEnv:DISPLAY}",
+    "QT_X11_NO_MITSHM": "1",
+    "NVIDIA_VISIBLE_DEVICES": "all",
+    "NVIDIA_DRIVER_CAPABILITIES": "graphics,utility,compute",
+    "TURTLEBOT3_MODEL": "burger"
+  },
+
+  "runArgs": ["--ipc=host", "--network=host"],
+
+  "mounts": ["source=/tmp/.X11-unix,target=/tmp/.X11-unix,type=bind"],
+
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+  "workspaceFolder": "/workspace"
+}

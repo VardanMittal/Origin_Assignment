@@ -1,0 +1,6 @@
+turtlebot3_ws/build
+turtlebot3_ws/install
+turtlebot3_ws/log
+turtlebot3_ws/src/DynamixelSDK
+turtlebot3_ws/src/turtlebot3_msgs
+turtlebot3_ws/src/turtlebot3
