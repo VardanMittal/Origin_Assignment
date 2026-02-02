@@ -114,7 +114,7 @@ The development of this planner was informed by the following academic and techn
 
 - **Primary Algorithm**: [The Dynamic Window Approach to Collision Avoidance](https://www.ri.cmu.edu/pub_files/pub1/fox_dieter_1997_1/fox_dieter_1997_1.pdf) (Fox, Burgard, and Thrun, 1997)
 - **Technical Tutorials**: Concepts of DWA implementation in Python - Reference Video
-- **AI Assistance**: Generative AI tools were utilized to assist with documentation formatting and initial code modularization.
+- **AI Assistance**: Generative AI tools were utilized to assist with documentation formatting and debugging.
 
 ---
 
